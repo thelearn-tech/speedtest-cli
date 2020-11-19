@@ -9,6 +9,4 @@ echo
 echo installation successful
 echo now type ./speedtest
 sleep 3
-cd
-rm -rf speedtest-cli
 echo
