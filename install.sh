@@ -4,7 +4,8 @@ echo
 echo automatically installation of speedtest-cli
 sleep 2
 cd
-curl -Lo speedtest-cli https://raw.githubusercontent.>
+curl -Lo speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
+chmod +x speedtest-cli
 echo
 echo installation successful
 echo now type ./speedtest
