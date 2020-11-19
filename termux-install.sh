@@ -6,7 +6,7 @@ sleep 2
 cd
 pkg install curl
 cd $PREFIX/bin
-curl -Lo speedtest-cli https://raw.githubusercontent.>
+curl -Lo speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
 cp  speedtest-cli speedtest
 rm -rf speedtest-cli
 chmod +x speedtest
