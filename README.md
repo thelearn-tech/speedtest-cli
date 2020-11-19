@@ -2,24 +2,31 @@
 Test your speed in terminal (termux)
 
 speedtest in your terminal
-# installation
+# installation Termux
+
  ***git clone https://github.com/thelearn-tech/speedtest-cli***
   
 
 ***cd speedtest-cli***
   
 
-***chmod +x install.sh***
+***sh termux-install.sh***
 
+# Installation other Linux OS (Rasbian,kali, ubantu etc)
 
-***./install.sh***
+***git clone https://github.com/thelearn-tech/speedtest-cli***
+  
 
+***cd speedtest-cli***
+  
+
+***sh install.sh***
 
 # usage
- *./speedtest-cli*
+ *./speedtest-cli* for Linux OS (ubantu etc)
 
  
-  *speedtest*
+  *speedtest* for Termux
 
 
 
