@@ -1,4 +1,8 @@
 # speedtest-cli
+
+![mama](https://img.shields.io/badge/Maintained-Not%20required-orange)
+
+
 Test your speed in terminal (termux)
 
 speedtest in your terminal
