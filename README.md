@@ -35,4 +35,4 @@ speedtest in your terminal
 
 
 # original
-*https://raw.githubusercontent.com/sivel/speedtest-cli*
+*https://github.com/sivel/speedtest-cli*
