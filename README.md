@@ -1,37 +1,26 @@
 # speedtest-cli
 
-![mama](https://img.shields.io/badge/Maintained-Not%20required-orange)
+![mama](https://img.shields.io/badge/Maintained-No-red)
 
 
-Test your speed in terminal (termux)
+Test your speed in terminal (termux only)
 
-speedtest in your terminal
+Visit original for more is support
+
 # installation Termux
 
- ***git clone https://github.com/thelearn-tech/speedtest-cli***
+ `git clone https://github.com/thelearn-tech/speedtest-cli`
   
+ `cd speedtest`
 
-***cd speedtest-cli***
-  
+ `chmod +x install.sh`
 
-***sh termux-install.sh***
+ `./install.sh`
 
-# Installation other Linux OS (Rasbian,kali, ubantu etc)
 
-***git clone https://github.com/thelearn-tech/speedtest-cli***
-  
+ ***ONE LINE INSTALLATION***
 
-***cd speedtest-cli***
-  
-
-***sh install.sh***
-
-# usage
- *./speedtest-cli* for Linux OS (ubantu etc)
-
- 
-  *speedtest* for Termux
-
+`git clone https://github.com/thelearn-tech/speedtest-cli && cd speedtest-cli && chmod +x install.sh && ./install.sh`
 
 
 # original
