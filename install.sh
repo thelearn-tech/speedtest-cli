@@ -1,13 +1,39 @@
-printf '\033[36m';echo script by thelearn-tech
-echo AKA Pritam Behera
-echo
-echo automatically installation of speedtest-cli
+
+
+echo -e """\e[1;38;5;214m
+  _______________
+ <\e[1;36m speedtest-cli\e[1;38;5;214m >\e[1;38;5;214m 
+  --------------- \e[1;32m
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )/|
+                ||----w |
+                ||     || \e[0m
+       
+
+                """
+
+
+echo "Auto installation script of SpeedTest Cli"
+echo "             by thelearn-tech"
+sleep 4
+
+clear
+cd $HOME
+echo "Download Starting....."
 sleep 2
-cd
 curl -Lo speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
 chmod +x speedtest-cli
-echo
-echo installation successful
-echo now type ./speedtest
-sleep 3
-echo
+cp speedtest-cli  speedtest
+chmod +x speeedtest
+mv speedtest $PREFIX/bin
+rm -rf speedtest
+clear
+
+echo "SpeedTest installed"
+speep 2
+echo ""
+echo " type speedtest to begin"
+sleep 1
+exit
+
