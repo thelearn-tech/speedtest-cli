@@ -1,4 +1,4 @@
-
+# v0.4
 
 echo -e """\e[1;38;5;214m
   _______________
@@ -28,10 +28,11 @@ cp speedtest-cli  speedtest
 chmod +x speeedtest
 mv speedtest $PREFIX/bin
 rm -rf speedtest
+rm -rf speedtest-cli
 clear
 
 echo "SpeedTest installed"
-speep 2
+sleep 2
 echo ""
 echo " type speedtest to begin"
 sleep 1
