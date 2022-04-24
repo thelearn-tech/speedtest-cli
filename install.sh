@@ -36,5 +36,5 @@ sleep 2
 echo ""
 echo " type speedtest to begin"
 sleep 1
-exit
+exit 1
 
