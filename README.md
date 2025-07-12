@@ -2,10 +2,14 @@
 
 ![mama](https://img.shields.io/badge/Maintained-No-red)
 
+**A installation wrapper for speedtest-cli**
+
+<br>
+<br>
 
 Test your speed in terminal (termux only)
 
-Visit original for more is support
+Visit original project for more at *https://github.com/sivel/speedtest-cli*
 
 # installation Termux
 
